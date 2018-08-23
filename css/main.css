@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
+
+body{
+    min-height: 100%;
+    background: #f2f2f2;
+    font-family: "Lato";
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+
+    -webkit-font-smoothing:antialiased;
+    -webkit-overflow-scrolling: touch;
+
+    margin: .5% 0;
+    height: 100%;
+    min-width: 100%;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Raleway";
+    font-weight: 300;
+    color: #333;
+}
+
+p {
+    line-height: .5%;
+    margin-bottom: 1%;
+}
+
+.centered{
+    text-align: center;
+}
+
+ul{
+    margin-right:3%;
+    padding: 0;     
+}
+
+a:hover, a:focus{
+    color: #7b7b7b;
+    text-decoration: none;
+    outline: 0;
+}
+
+.navbar-brand{  
+    font-weight: bolder;
+    font-size: 22px;
+}
+
+#headerwrap{
+    margin-top:-0.2% ;
+}
+
+ .carousel-inner {
+    display: block;
+    max-width: 100%;
+    max-height: 350px !important;       
+  }
+ .carousel-item  {
+    max-width: 100%; 
+    max-height: 350px;   
+    margin-top: 10px !important ;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover; 
+    background-size: cover;   
+  }
+
+  .carousel-indicators{  
+    text-align: center;
+    margin: auto;
+  }
+
+  
+  .w{
+      padding-top: 3%;
+  }
+
+  .w h4{
+      font-size: 25px;
+  }
+
+  #dg{     
+      background: #e0e0e0;
+      padding-top: 4%;
+      padding-bottom: 5%;
+      text-align: center;
+      box-sizing: content-box;     
+  }
+
+  .prepod{      
+      min-height:100%;
+      height:auto !important;
+      height:100%;
+    
+  }
+
+  #dg h4{
+      font-size: 40px;
+  }
+
+  .tilt{
+      transition: all .5s ease;
+  }
+  .tilt:hover{
+      transform: rotate(-10deg);
+  }
+  .foto  {   
+    max-width: 100%;    
+    background-repeat: no-repeat;    
+    -webkit-background-size: cover; 
+    background-size: cover;    
+  }
+
+  #f{ 
+     max-width: 100%;
+    min-height:100%;
+    height:auto !important;
+    height:100%;    
+    background: #2d2d2d;
+    padding: 1% 0;     
+  }
+
+  .aboutas h6{
+      color: #bdbdbd;
+      text-align: start;
+  }
+  #f i{     
+      color: #bdbdbd;
+      font-size: 30px;     
+  }
+
+  #f i:hover{
+      color: #E6E6FA;
+  }
+  .reference div{     
+      margin: 0 20%;         
+  }
+ 
+
+  
